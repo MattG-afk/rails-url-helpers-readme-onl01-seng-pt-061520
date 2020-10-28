@@ -18,3 +18,11 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 25ms (Views: 9.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/posts" for 107.220.214.134 at 2020-10-28 21:06:57 +0000
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 312ms (Views: 309.7ms | ActiveRecord: 0.4ms)
+
+
